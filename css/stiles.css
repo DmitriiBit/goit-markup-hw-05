@@ -352,14 +352,14 @@ ul{
 
 .close-modal{
     position: absolute;
-    display: flex;
+   
     right: 8px;
     top: 8px;
-    width: 30px;
+   min-width: 30px;
     height: 30px;
     background-image:url(../img/close.png) ;
     fill: var(--accent-color);
-    background-size: cover;
+    
     background-color: var(--primary-bg-color);
     background-position: center;
     border: none;
